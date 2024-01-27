@@ -17,7 +17,7 @@ projects using [Packer](https://www.packer.io/).
 ```yaml
 repos:
   - repo: https://github.com/khulnasoft-lab/pre-commit-packer
-    rev: v4.1.2-rc.1
+    rev: v4.1.2-rc.1+build.1
     hooks:
       - id: packer_validate
         args:
