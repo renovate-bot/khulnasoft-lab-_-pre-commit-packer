@@ -45,7 +45,7 @@ jobs:
         uses: khulnasoft-lab/setup-env-github-action@35e6b57e0a63785ff3c5c175c579ad09312f4d8e # develop
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       - id: setup-python
-        uses: actions/setup-python@65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236 # v4.7.1
+        uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5.1.0
         with:
           python-version: "3.11"
       # We need the Go version and Go cache location for the actions/cache step,
