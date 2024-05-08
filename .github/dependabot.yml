@@ -22,14 +22,20 @@ updates:
     package-ecosystem: github-actions
     schedule:
       interval: weekly
+    commit-message:
+      prefix: ⬆
 
   - directory: /
     package-ecosystem: pip
     schedule:
       interval: weekly
+    commit-message:
+      prefix: ⬆
 
   - directory: /
     package-ecosystem: terraform
     schedule:
       interval: weekly
+    commit-message:
+      prefix: ⬆
 version: 2
